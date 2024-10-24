@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazi@Compuster - Electronics Mall</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Popup Messages -->
+    
+
+    <header>
+        <div class="logo">
+            <img src="WhatsApp Image 2024-10-22 at 19.25.51 (1).jpeg" alt="Owner Image" class="owner-logo">
+            <h1>Gazi@Compuster</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop Now</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#special-offers">Special Offers</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Products..." id="search">
+                <button onclick="searchProducts()">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="carousel">
+            <!-- Add your featured images here -->
+            <img src="product1.jfif" alt="Featured Product 1">
+            <img src="product6.jfif" alt="Featured Product 2">
+            <img src="product11.jfif" alt="Featured Product 3">
+        </div>
+        <h2>Welcome to Gazi@Compuster</h2>
+        <p>Your one-stop destination for laptops, computers, and electronics.</p>
+    </section>
+
+    <section id="shop">
+        <h2>Shop Now</h2>
+        <div class="product-categories">
+            <div class="category">
+                <img src="product2.jfif" alt="Laptops">
+                <h3>Laptops</h3>
+                <p class="product-description">High-quality laptops with the latest technology for all your needs.</p>
+            </div>
+            <div class="category">
+                <img src="product7.jfif" alt="Computers">
+                <h3>Computers</h3>
+                <p class="product-description">Reliable desktop computers perfect for home and office use.</p>
+            </div>
+            <div class="category">
+                <img src="product12.jfif" alt="Electronics">
+                <h3>Electronics</h3>
+                <p class="product-description">Wide range of electronics, including gadgets, accessories, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="special-offers">
+        <h2>Special Offers</h2>
+        <p>Check out our latest discounts and promotions.</p>
+        <button onclick="viewOffers()">View Offers</button>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="reviews">
+            <div class="review">
+                <p>"Great service and fantastic products!"</p>
+                <span>- Customer 1</span>
+            </div>
+            <div class="review">
+                <p>"Highly recommend Gazi@Compuster for all your tech needs."</p>
+                <span>- Customer 2</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>Address: Barasat, Kolkata 700125</p>
+            <p>Email: info@gazi-compuster.com</p>
+        </div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="map">
+            <!-- Google Maps Embed Here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="https://instagram.com/yourprofile" target="_blank">Instagram</a></li>
+                <li><a href="https://facebook.com/yourprofile" target="_blank">Facebook</a></li>
+                <li><a href="https://linkedin.com/yourprofile" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <a href="#privacy-policy">Privacy Policy</a> | 
+            <a href="#terms">Terms of Service</a>
+        </div>
+        <p>&copy; 2024 Gazi@Compuster. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
